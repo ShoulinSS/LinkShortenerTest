@@ -1,11 +1,12 @@
 # Микросервис для сокращения ссылок (тестовое задание)
 
 Команды докера для сборки и тестирования проекта:
+
 `docker-compose up --build -d` -d для удобного запуска unit-тестов.
 
 `docker-compose exec web pytest unit-tests.py -v` - запускает unit-тесты.
 
-
+---
 
 Принимает json формата {url: url} и возвращает json формата {short_id: id} по эндпоинту POST/shorten.
 
